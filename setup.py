@@ -12,10 +12,10 @@ setup(
         "omp_predictor": ["*.pkl"],
     },
     install_requires=[
-        "numpy",
-        "scikit-learn",
-        "rdkit",
-        "joblib",
+        "numpy>=1.26.4",
+        "scikit-learn>=1.6.1",
+        "rdkit==2022.9.5",
+        "joblib>=1.4.2",
     ],
     entry_points={
         "console_scripts": [

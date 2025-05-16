@@ -14,7 +14,7 @@ setup(
     install_requires=[
         "numpy>=1.26.4",
         "scikit-learn>=1.6.1",
-        "rdkit==2022.9.5",
+        "rdkit>=2025.3.2",
         "joblib>=1.4.2",
     ],
     entry_points={

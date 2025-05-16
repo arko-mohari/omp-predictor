@@ -14,7 +14,7 @@ setup(
     install_requires=[
         "numpy",
         "scikit-learn",
-        "rdkit-pypi",
+        "rdkit",
         "joblib",
     ],
     entry_points={

@@ -4,7 +4,7 @@ In palladium-catalyzed C–H activation reactions, regioselectivity — i.e., wh
 This tool, omp-predictor, uses machine learning to rapidly and accurately predict the directing group-assisted regioselectivity (meta, ortho, para, or non-directing) in aryl substrates involved in Pd-catalyzed C–H activation. Based on models trained from curated reaction datasets, the predictor leverages structural fingerprints (Morgan fingerprints) and pre-trained classifiers (SVM and Logistic Regression) to classify input molecules.
 The standard SVM model demonstrated excellent performance with an F1 score of 0.92 and Matthews correlation coefficient (MCC) of 0.93 on held-out test data, indicating strong generalizability. This approach significantly aids in the early-stage design of catalytic strategies for regioselective C–H activation.
 
-![Diagram](https://pubs.acs.org/cms/10.1021/acs.orglett.5c01158/asset/images/medium/ol5c01158_0006.gif)
+![TOC](images/toc.webp)
 ![Diagram](https://pubs.acs.org/cms/10.1021/acs.orglett.5c01158/asset/images/medium/ol5c01158_0007.gif)
 
 ## omp-predictor

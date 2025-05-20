@@ -50,7 +50,10 @@ def main():
     probabilities = np.max(model.predict_proba(bit_vectors), axis=1)
     for file_name, prediction, probability in zip(mol_files, predictions, probabilities):
         if prediction != 1:
-            print(f"The given file, {os.path.basename(file_name)} is a {class_names[prediction]}-director with {int(probability*100)}% certainty.")
+            if probability <= 0.6:
+                print(f"The given file, {os.path.basename(file_name)} is a non-director.")
+            else:
+                print(f"The given file, {os.path.basename(file_name)} is a {class_names[prediction]}-director with {int(probability*100)}% certainty.")
         else:
             print(f"The given file, {os.path.basename(file_name)} is a {class_names[prediction]}-director.")
 
